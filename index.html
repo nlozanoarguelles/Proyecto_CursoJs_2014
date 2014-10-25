@@ -1,13 +1,202 @@
-<!DOCTYPE html>
-<html>
+<html lang="en"><head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
 
-<head>
-    <meta charset="UTF-8">
-    <title>Titulo del documento</title>
-</head>
+    <title>Starter Template for Bootstrap</title>
 
-<body>
-    Aqui empieza la magia...
-</body>
+    <!-- Bootstrap core CSS -->
+    <link href="lib/bootstrap-3.2.0-dist/css/bootstrap.min.css" rel="stylesheet">
 
-</html>
+    <!-- Custom styles for this template -->
+    <link href="starter-template.css" rel="stylesheet">
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="lib/bootstrap-3.2.0-dist/css/bootstrap-theme.css"></script>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+<nav class="navbar navbar-default" role="navigation">
+  <!-- El logotipo y el icono que despliega el menú se agrupan
+       para mostrarlos mejor en los dispositivos móviles -->
+  <div class="navbar-header">
+    <button type="button" class="navbar-toggle" data-toggle="collapse"
+            data-target=".navbar-ex1-collapse">
+      <span class="sr-only">Desplegar navegación</span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+    </button>
+    <a class="navbar-brand" href="#">Logotipo</a>
+  </div>
+ 
+  <!-- Agrupar los enlaces de navegación, los formularios y cualquier
+       otro elemento que se pueda ocultar al minimizar la barra -->
+  <div class="collapse navbar-collapse navbar-ex1-collapse">
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="#">Enlace #1</a></li>
+      <li><a href="#">Enlace #2</a></li>
+      <li class="dropdown">
+        <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+          Menú #1 <b class="caret"></b>
+        </a>
+        <ul class="dropdown-menu">
+          <li><a href="#">Acción #1</a></li>
+          <li><a href="#">Acción #2</a></li>
+          <li><a href="#">Acción #3</a></li>
+          <li class="divider"></li>
+          <li><a href="#">Acción #4</a></li>
+          <li class="divider"></li>
+          <li><a href="#">Acción #5</a></li>
+        </ul>
+      </li>
+    </ul>
+ 
+    <form class="navbar-form navbar-left" role="search">
+      <div class="form-group">
+        <input type="text" class="form-control" placeholder="Buscar">
+      </div>
+      <button type="submit" class="btn btn-default">Enviar</button>
+    </form>
+ 
+    <ul class="nav navbar-nav navbar-right">
+      <li><a href="#">Enlace #3</a></li>
+      <li class="dropdown">
+        <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+          Menú #2 <b class="caret"></b>
+        </a>
+        <ul class="dropdown-menu">
+          <li><a href="#">Acción #1</a></li>
+          <li><a href="#">Acción #2</a></li>
+          <li><a href="#">Acción #3</a></li>
+          <li class="divider"></li>
+          <li><a href="#">Acción #4</a></li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+</nav>
+<div class="row">
+  <div class="col-md-8">
+    <img src="img/Mapa.PNG" alt="mapa estatico" class="img-thumbnail">
+    
+    </div>
+  <div class="col-md-4">
+      
+      
+   <div class="panel panel-info">
+    <div class="panel-heading">
+      <h3 class="panel-title">Autobuses</h3>
+    </div>
+    <div class="panel-body">
+     <div>
+         L01
+         <label>
+      <input type="checkbox"> El Cerillero - Hospital de Cabueñes
+    </label>
+        </div>
+         <div>
+         L02
+         <label>
+      <input type="checkbox"> El Corte Inglés - Hospital de Cabueñes
+    </label>
+        </div>
+         <div>
+         L04
+         <label>
+      <input type="checkbox"> El Lauredal - Campus Universitario
+    </label>
+        </div>  <div>
+         L06
+         <label>
+      <input type="checkbox"> El Musel - Pol. Porceyo/Porceyo
+    </label>
+        </div>  <div>
+         L10
+         <label>
+      <input type="checkbox"> Pumarín - Somió/Hospital de Cabueñes
+    </label>
+        </div>  <div>
+         L12
+         <label>
+      <input type="checkbox"> El Cerillero - Contrueces
+    </label>
+        </div>  <div>
+         L14
+         <label>
+      <input type="checkbox"> Sotiello - Tremañes - Infanzón
+    </label>
+        </div>  <div>
+         L15
+         <label>
+      <input type="checkbox"> Nuevo Roces - Hospital de Cabueñes
+    </label>
+        </div>  <div>
+         L16
+         <label>
+      <input type="checkbox"> Estación de Ferrocarril - Vega
+    </label>
+        </div>  <div>
+         L18
+         <label>
+      <input type="checkbox"> Nuevo Gijón - Hospital de Cabueñes
+    </label>
+        </div>  <div>
+         L20
+         <label>
+      <input type="checkbox"> Nuevo Roces - Montevil - Somió (La Pipa)
+    </label>
+        </div>  <div>
+         L21
+         <label>
+      <input type="checkbox"> Hospital de Jove - La Campa Torres
+    </label>
+        </div>  <div>
+         L24
+         <label>
+      <input type="checkbox"> San Andrés/Montena - La Pedrera/Mareo
+    </label>
+        </div>  <div>
+         L25
+         <label>
+      <input type="checkbox"> Tremañes - Infanzón
+    </label>
+        </div>  <div>
+         L26
+         <label>
+      <input type="checkbox"> Gijón - Deva
+    </label>
+        </div>
+          
+      
+        
+    </div>
+  </div>
+    
+    
+    </div>
+</div>
+    
+      
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="lib/bootstrap-3.2.0-dist/js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+  
+
+</body></html>
